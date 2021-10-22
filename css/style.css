@@ -30,6 +30,9 @@ a:hover {
     padding: 0.6em 1.2em;
     color: white;
 }
+.btn-container {
+    text-align: center;
+}
 ul {
     list-style-type: none;
 }
@@ -57,6 +60,16 @@ ul {
 }
 .grey-text {
     color: grey;
+}
+.white-text {
+    color: white;
+}
+.underlined-blue {
+    text-decoration: underline;
+    color: #0061FE;
+}
+.bold-800 {
+    font-weight: 800;
 }
 
 /* navbar */
@@ -159,9 +172,36 @@ main h1 {
 }
 .main-plans-column-content {
     padding: 2em;
-    line-height: 3em;
 }
-.plan-type h2,
+.plan-type h2 {
+    padding-bottom: 0.8em;
+}
 .plan-type h5 {
+    padding-bottom: 0.5em;
+}
+.plan-description {
+    font-weight: 600;
+    padding-top: 2em;
+}
+.plan-description li {
+    padding: 1em 0;
+}
+.plan-description .btn-container {
+    width: 100%;
+    padding: 0.6em 1.2em;
+    background-color: #0061FE;
+}
+.plan-description .separation-line {
+    display: inline-block;
+    padding: 2em 0;
+    border-bottom: 1px solid #EEE9E2;
+}
+.plan-description h3 {
+    padding-top: 2em;
+    padding-bottom: 0.8em;
+}
+.plan-description ul li i {
+    color: #0061FE;
     font-weight: 800;
 }
+
