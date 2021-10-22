@@ -7,22 +7,25 @@
 html {
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 body {
-    max-width: 1200px;
     font-size: 0.8em;
     color: black;
 }
 a {
     text-decoration: none;
+    color: black;
 }
 a:hover {
     text-decoration: underline;
 }
 .btn {
     background-color: #0061FE;
-    padding: 0.4em 1.2em;
+    padding: 0.6em 1.2em;
     color: white;
 }
 
@@ -38,11 +41,18 @@ a:hover {
     display: table;
     clear: both;
 }
+.position-relative {
+    position: relative;
+}
+.pd-bottom-1em {
+    padding-bottom: 1em;
+}
 
 /* navbar */
 .navbar {
     position: fixed;
     width: 100%;
+    max-width: 1200px;
     height: 4em;
     line-height: 4em;
     background-color: white;
@@ -53,7 +63,7 @@ a:hover {
     padding: 0 1em;
 }
 .dropbox-logo {
-    max-height: 4em;
+    height: 1.5em;
     vertical-align: middle;
 }
 .navbar a {
@@ -71,4 +81,28 @@ a:hover {
     background-color: #b4d0e7;
     height: 600px;
     padding-top: 6em;
+}
+.jumbo-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+.jumbo-container h1 {
+    font-size: 4.2em;
+}
+.jumbo-container-text {
+    width: 35%;
+    line-height: 1.6em;
+}
+.jumbo-container-text p {
+    padding: 2.2em 0;
+}
+.down-arrow {
+    font-size: 3em;
+}
+.jumbo-container-img {
+    width: 65%;
+}
+.jumbo-container-img img {
+    width: 120%;
 }
