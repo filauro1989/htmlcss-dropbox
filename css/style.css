@@ -141,6 +141,9 @@ main h1 {
 }
 
 /* section main-plans  */
+.main-plans {
+    height: 1000px;
+}
 .main-plans h1 {
     padding: 2em 0;
 }
@@ -161,7 +164,11 @@ main h1 {
     border: 4px solid #0061FE;
 }
 /* columns */
+.col-central {
+    margin: 0 5%;
+}
 .main-plans-column {
+    height: 100%;
     margin-top: 2em;
     border: 1px solid #EEE9E2;
 }
@@ -200,7 +207,7 @@ main h1 {
     padding-top: 2em;
     padding-bottom: 0.8em;
 }
-.plan-description ul li i {
+.plan-description .highlights li i {
     color: #0061FE;
     font-weight: 800;
 }
