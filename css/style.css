@@ -65,6 +65,9 @@ ul {
 .width-30 {
     width: 30%;
 }
+.width-40 {
+    width: 40%;
+}
 .width-50 {
     width: 50%;
 }
@@ -92,6 +95,9 @@ ul {
 }
 .bold-800 {
     font-weight: 800;
+}
+.inline-block {
+    display: inline-block;
 }
 
 /* navbar */
@@ -293,4 +299,32 @@ main h1 {
 .show-footer a {
     color: #0061FE;
     text-decoration: underline;
+}
+
+/* sezione Sponsor */
+.bg-lgreen {
+    background-color: lightgreen;
+}
+.sponsor-container {
+    /* height: 600px; */
+}
+.sponsor-side {
+    /* height: 67%; */
+}
+.sponsor-square {
+    width: 50%;
+    text-align: center;
+}
+
+.sponsor-square img {
+    filter:  brightness(0) invert(1);
+    width: 50%;
+}
+.sponsor-middle-container {
+    background-color: lightgray;
+    padding: 2em;
+    min-width: 30em;
+}
+.sponsor-middle-logo img {
+    width: 20%;
 }
