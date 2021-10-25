@@ -7,7 +7,6 @@
 html {
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
-    margin: 0 auto;
 }
 
 body {
@@ -57,17 +56,27 @@ ul {
 .pd-bottom-1em {
     padding-bottom: 1em;
 }
+.width-centered {
+    width: 70%;
+    margin: 0 auto;
+}
 .width-10 {
     width: 10%;
 }
 .width-30 {
     width: 30%;
 }
+.width-50 {
+    width: 50%;
+}
 .width-70 {
     width: 70%;
 }
 .width-90 {
     width: 90%;
+}
+.width-100 {
+    width: 100%;
 }
 .grey-text {
     color: grey;
@@ -147,18 +156,14 @@ ul {
 }
 
 /* main */
-main {
-
-}
 main h1 {
+    height: 100%;
     font-size: 2.5em;
 }
 
 /* section main-plans  */
 .main-plans {
-    width: 70%;
-    margin: 0 auto;
-    height: 1000px;
+    height: 1200px;
 }
 .main-plans h1 {
     padding: 2em 0;
@@ -238,8 +243,8 @@ main h1 {
 .main-plans-footer {
     border: 1px solid #EEE9E2;
     width: 100%;
-    margin: 0 auto;
-    margin-top: 2em;
+    margin-top: 3em;
+    margin-bottom: 9em;
 }
 .main-plans-footer-container {
     padding: 2em;
@@ -251,4 +256,22 @@ main h1 {
 .team-col-content h4 {
     padding-top: 1.5em;
     padding-bottom: 2em;
+}
+
+/* parter box */
+.partner-box {
+    margin-bottom: 4em;
+}
+.partner-box-content {
+    padding: 2em 0 2em 3em;
+    width: calc(50%-3em);
+}
+.partner-box-content p {
+    font-weight: normal;
+    padding: 2em 0;
+}
+.partner-box-content .btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
