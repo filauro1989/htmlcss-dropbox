@@ -57,7 +57,6 @@ ul {
     padding-bottom: 1em;
 }
 .width-centered {
-    width: 70%;
     margin: 0 auto;
 }
 .width-10 {
@@ -157,7 +156,6 @@ ul {
 
 /* main */
 main h1 {
-    height: 100%;
     font-size: 2.5em;
 }
 
@@ -275,3 +273,12 @@ main h1 {
     color: black;
     border: 1px solid black;
 }
+
+/* sezione operation show */
+.operations-show .show-title {
+    padding: 3em 0;
+}
+.operations-show-column p {
+    padding: 2em 0;
+}
+
