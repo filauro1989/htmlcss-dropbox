@@ -68,6 +68,9 @@ ul {
 .width-50 {
     width: 50%;
 }
+.width-60 {
+    width: 60%;
+}
 .width-70 {
     width: 70%;
 }
@@ -275,10 +278,19 @@ main h1 {
 }
 
 /* sezione operation show */
-.operations-show .show-title {
+.operations-show-column {
     padding: 3em 0;
 }
 .operations-show-column p {
     padding: 2em 0;
 }
-
+.show-footer {
+    padding: 3em 0;
+}
+.show-footer h1 {
+    padding: 1em 0;
+}
+.show-footer a {
+    color: #0061FE;
+    text-decoration: underline;
+}
