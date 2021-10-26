@@ -110,8 +110,17 @@ ul {
 .bg-brown {
     background-color: brown;
 }
+.bg-light-blue {
+    background-color: #B4D0E7;
+}
 .bg-blue {
     background-color: dodgerblue;
+}
+.bg-dark-blue {
+    background-color: blue;
+}
+.bg-yellow {
+    background-color: yellow;
 }
 
 /* navbar */
@@ -176,6 +185,7 @@ ul {
 }
 .jumbo-container-img {
     width: 65%;
+    max-width: 600px;
 }
 .jumbo-container-img img {
     width: 100%;
@@ -323,7 +333,7 @@ main h1 {
 
 /* sezione Sponsor */
 .sponsor-container {
-    height: 50vh;
+    height: 40vh;
 }
 .sponsor-side {
     height: 100%;    
@@ -345,15 +355,26 @@ main h1 {
     display: inline-block;
     filter: invert(100%); 
 }
-.sponsor-middle-container {
-    width: 100%;
-    height: 100%;
-    padding: 2em;
-    overflow-y: auto;
-}
-.sponsor-middle-logo img {
-    width: 6em;
-}
 #designit {
     border: 0.7em solid #D0E9CD;
 }
+.sponsor-middle-container {
+    width: 100%;
+    height: 100%;
+    padding: 3em;
+    overflow-y: auto;
+}
+.sponsor-middle-logo img {
+    width: 10em;
+    /* padding: 2em 0 2em 1em; */
+}
+.sponsor-middle-logo::after {
+    content: '';
+    width: 10%;
+    display: block;
+    border-bottom: 1px solid grey;
+    padding-top: 2em;
+}
+.sponsor-middle-container .sponsor-middle-text {
+    padding: 2em 0;
+} 
