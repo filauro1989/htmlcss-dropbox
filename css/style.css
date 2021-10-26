@@ -102,7 +102,7 @@ ul {
 
 /* Background colors */
 .bg-lgreen {
-    background-color: lightgreen;
+    background-color: #A2D39B;
 }
 .bg-red {
     background-color: red;
@@ -353,4 +353,7 @@ main h1 {
 }
 .sponsor-middle-logo img {
     width: 6em;
+}
+#designit {
+    border: 0.7em solid #D0E9CD;
 }
