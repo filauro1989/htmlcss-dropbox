@@ -167,6 +167,7 @@ header {
     vertical-align: middle;
     padding: 1em 0;
     margin: 0 1.2em;
+    text-decoration: none;
 }
 .navbar .nav-menu-right {
     text-align: right;
