@@ -213,6 +213,9 @@ main h1 {
 .main-plans-invoice li {
     display: inline;
 }
+.main-plans-invoice li:hover {
+    cursor: pointer;
+}
 .circle {
     height: 1em;
     width: 1em;
@@ -384,10 +387,50 @@ main h1 {
 .sponsor-middle-container .sponsor-middle-text {
     padding: 2em 0;
 } 
-.sponsor-footer {
-    height: 30vh;
-}
+
+/* sezione sponsor footer */
 .sponsor-footer-container {
     padding: 8% 2em;
+}
+
+/* sezione faq */
+.faq {
+    padding: 6em 2em;
+}
+
+.faq h2 {
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+.faq ul li:first-child {
+    border-top: 1px solid lightgray;
+}
+.faq li {
+    padding: 2em 0;
+    border-bottom: 1px solid lightgray;
+}
+.faq-hidden-menu {
+    display: none;
+    padding: 1em 0;
+    color: grey;
+    font-weight: normal;
+    transition: display 2s;
+}
+.li-container:hover .faq-hidden-menu,
+.faq-hidden-menu:hover {
+    display: block;
+}
+.li-container:hover .arrow-down i:first-child {
+    display: none;
+}
+.li-container:hover .arrow-down i:last-child {
+    display: block;
+}
+.arrow-down {
+    text-align: right;
+    padding-right: 2em;
+}
+.arrow-down i:last-child {
+    display: none;
 }
 
