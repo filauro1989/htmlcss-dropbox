@@ -14,9 +14,6 @@ body {
     font-weight: 600;
     color: black;
 }
-header {
-    margin-bottom: 4em;
-}
 a {
     text-decoration: none;
     color: black;
@@ -129,6 +126,11 @@ ul {
     background-color: yellow;
 }
 
+/* HEADER */
+header {
+    margin-bottom: 4em;
+}
+
 /* navbar */
 .navbar {
     position: fixed;
@@ -200,7 +202,7 @@ ul {
     left: 2em;
 }
 
-/* main */
+/* MAIN */
 main h1 {
     font-size: 2.5em;
 }
@@ -434,3 +436,34 @@ main h1 {
     display: none;
 }
 
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+}
+.footer-container {
+    padding: 4em 0;
+}
+.footer-container h3 {
+    font-size: 1.3em;
+    padding-bottom: 1em;
+}
+.footer-container ul li {
+    font-size: 0.8em;
+    padding: 0.3em 0;
+    font-weight: normal;
+}
+.footer-container ul li a {
+    color: white;
+}
+.footer-language {
+    color: grey;
+    padding-bottom: 2em;
+}
+.footer-container::after {
+    content: '';
+    display: block;
+    width: 10%;
+    border-bottom: 1px solid white;
+    padding-top: 8em;
+}
